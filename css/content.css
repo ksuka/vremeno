@@ -1,32 +1,36 @@
+body{
+    background: #6D0003;
+}
+
+.background{
+    position: absolute;
+    margin-left: -50%;
+    margin-top: -1%;
+}
+
+
 .section1{
    text-align: center;
    width: 100%;
    margin: auto;
 }
-/*h1{ 
-    position:absolute;
-    font-size: 12vw;
-    color: #E7AF3E;
-    -webkit-text-stroke: 1px black; 
-    text-shadow: 1px black;
-}*/
 
 
 .cards img{
-  width: 16%;  
+  width: 19%;  
 }
 
 .card1{
     transform: rotate(143.83deg); 
-    margin-left: -40%;
-    margin-top: 17%;
+    margin-left: -42%;
+    margin-top: 25%;
     position:absolute;
 }
 
 .card2{
     position:absolute;
-    margin-left: -10%;
-    margin-top: 0%;
+    margin-left: -15%;
+    margin-top: -2%;
     transform: rotate(73.83deg);
 }
 
@@ -34,7 +38,7 @@
     position:absolute;
     transform: rotate(73.83deg);
     margin-left: -5%;
-    margin-top: 30%;
+    margin-top: 35%;
 }
 
 .card4{
@@ -46,54 +50,90 @@
 
 .glass1{
     position: absolute;
-    width: 45%;
-    margin-top: -2%;
-    margin-left: -29%;
+    width: 49%;
+    margin-top: -1%;
+    margin-left: -50%;
 }
 
 .glass2{
-    width: 10%;
+    width: 8%;
     position: absolute;
-    margin-top: 0%;
-    margin-left: 15%;
+    margin-top: 1%;
+    margin-left: -3%;
 }
 
 .glass3{
+    width: 54%;
     position: absolute;
-    margin-top: -3%;
-    margin-left: 20%;
+    margin-top: -5%;
+    margin-left: 0%;
 }
 
 .glass4{
+    width: 36%;
     position: absolute;
-    margin-top: 0%;
-    margin-left: 25%;
+    margin-top: 16%;
+    margin-left: 17%;
 }
 
 .glass5{
+    width: 25%;
     position: absolute;
-    margin-top: 0%;
-    margin-left: 25%;
+    margin-top: 13%;
+    margin-left: -52%;
+}
+
+.glass6{
+    position: absolute;
+    margin-top: 41%;
+    margin-left: -56%;
 }
 
 .glass7{
+    width: 38%;
     position: absolute;
-    margin-top: 10%;
-    margin-left: 40%;
+    margin-top: 32%;
+    margin-left: -38%;
 }
 
 .glass8{
     position: absolute;
-    margin-top: 30%;
-    margin-left: 0%;
+    margin-top: 35%;
+    margin-left: -6%;
 }
 
+.glass9{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: -5%;
+}
 
 
 
 .vremeno{
     position:absolute;
-    width: 60%;
-    margin-left: -30%;
-    margin-top: 15%;
+    width: 70%;
+    margin-left: -36%;
+    margin-top: 20%;
+}
+
+.watch{
+    position:absolute;
+    color: #FAEED6;
+    font-size: 70px;
+    margin-left: -36%;
+    margin-top: 20%;
+    margin-top: 90%;
+}
+
+.thirty{
+    position: absolute;
+    margin-top: 60%;
+}
+
+.razbit{
+    position: relative;
+    font-size: 90px;
+    color: #E7AF3E;
+    margin-top: 60%;
 }
