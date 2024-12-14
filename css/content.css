@@ -1,0 +1,99 @@
+.section1{
+   text-align: center;
+   width: 100%;
+   margin: auto;
+}
+/*h1{ 
+    position:absolute;
+    font-size: 12vw;
+    color: #E7AF3E;
+    -webkit-text-stroke: 1px black; 
+    text-shadow: 1px black;
+}*/
+
+
+.cards img{
+  width: 16%;  
+}
+
+.card1{
+    transform: rotate(143.83deg); 
+    margin-left: -40%;
+    margin-top: 17%;
+    position:absolute;
+}
+
+.card2{
+    position:absolute;
+    margin-left: -10%;
+    margin-top: 0%;
+    transform: rotate(73.83deg);
+}
+
+.card3{
+    position:absolute;
+    transform: rotate(73.83deg);
+    margin-left: -5%;
+    margin-top: 30%;
+}
+
+.card4{
+    position:absolute;
+    transform: rotate(20.1deg);
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.glass1{
+    position: absolute;
+    width: 45%;
+    margin-top: -2%;
+    margin-left: -29%;
+}
+
+.glass2{
+    width: 10%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 15%;
+}
+
+.glass3{
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 20%;
+}
+
+.glass4{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 25%;
+}
+
+.glass5{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 25%;
+}
+
+.glass7{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.glass8{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 0%;
+}
+
+
+
+
+.vremeno{
+    position:absolute;
+    width: 60%;
+    margin-left: -30%;
+    margin-top: 15%;
+}
