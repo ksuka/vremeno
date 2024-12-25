@@ -1,12 +1,14 @@
 body{
     background: #6D0003;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .background{
     position: absolute;
-    margin-left: -50%;
+    margin-left: -51%;
     margin-top: -1%;
-    width:100%;
+    width:101%;
 }
 
 .h{
@@ -58,7 +60,7 @@ body{
     position: absolute;
     width: 49%;
     margin-top: -1%;
-    margin-left: -50%;
+    margin-left: -51%;
 }
 
 .glass2{
@@ -127,7 +129,7 @@ body{
     position:absolute;
     color: #FAEED6;
     font-size: 70px;
-    margin-left: 70%;
+    margin-left: 73%;
     margin-top: -7%;
     letter-spacing: 14%;
 }
@@ -147,7 +149,7 @@ body{
 .table{
     position: absolute;
     width: 38%;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: -31%;
 }
 
@@ -193,7 +195,7 @@ body{
     margin-top: 0%;
 }
 
-.star{
+.star1{
     width: 12%;
     position:absolute;
     margin-left: 32%;
@@ -201,7 +203,329 @@ body{
 }
 
 .piece{
-    width: 25%;
-    margin-left: 71.5%;
+    margin-left: 72.5%;
     margin-top: -20%;
+}
+
+.piece img{
+    width: 90%;
+}
+
+.roulette{
+    position: relative;
+}
+
+.roulette img{
+    width: 57%;
+    margin-left: 42%;
+    margin-top: 1.5%;
+}
+
+
+.hadle{
+    position: absolute;
+    margin-left: 88.5%;
+    margin-top: -31.5%;
+    background: url(../img/handle.png);
+    width: 20%;
+    height: 75%;
+    overflow: hidden;
+    animation: hadle 1s steps(1) infinite;
+}
+
+@keyframes hadle{
+    0%{ background-position: 0px;}
+    20%{ background-position: -179px;}
+    40%{ background-position: -358px;}
+    60%{ background-position: -537px;}
+    100%{ background-position: -716px;}
+}
+
+.ticket{
+    position: absolute;
+    color: #C30000;
+    font-size: 2vw;
+    margin-left: 44.1%;
+    margin-top: -13.8%;
+}
+
+.seven1{
+    position: absolute;
+    font-size: 6.6vw;
+    margin-left: 61.6%;
+    margin-top: -16.5%;
+}
+
+.seven2{
+    position: absolute;
+    font-size: 6.6vw;
+    margin-left: 83.3%;
+    margin-top: -16.5%;
+}
+
+.hourglass{
+    width: 3.6%;
+    position: absolute;
+    margin-left: 73%;
+    margin-top: -15.4%;
+}
+
+.tickets{
+    background: url(../img/tickets.png);
+    width: 219px;
+    height: 663px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -5.5%;
+    animation: tickets 1s steps(1) infinite;
+}
+
+@keyframes tickets{
+    0%{ background-position: 0px;}
+    40%{ background-position: 219px;}
+    60%{ background-position: 438px;}
+    80%{ background-position: 657px;}
+    100%{ background-position: 890px;}
+}
+
+.broken{
+    border: #3D0707 solid 0.5vw;
+    width: 53.5vw;
+    height: 48vw;
+    background: #FAEED6;
+    margin-left: 42.2%;
+    margin-top: 2%;
+    overflow: hidden;
+    background: url(../img/broken.png);
+    animation: hourglass 0.9s steps(1) infinite;
+}
+
+@keyframes hourglass{
+    0%{background-position: 0px; }
+    20%{background-position: -825px; }
+    40%{background-position: -1626px; }
+    60%{background-position: -2482px; }
+    100%{background-position: -3250px; }
+}
+
+.diceglass{
+    margin-left: 2.3%;
+    margin-top: -39%;
+    width: 600px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.diceglass img{
+    width: 103%
+}
+
+.dice1{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    margin-left: -5%;
+    margin-top: -32%;
+    overflow: hidden;
+    background: url(../img/dice.png);
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    30% { transform: rotate(0deg);}
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg);}
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(20deg); }
+    100% {  transform: rotate(0deg); }
+}
+
+
+.dice2{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    margin-left: 7%;
+    margin-top: -37%;
+    overflow: hidden;
+    background: url(../img/dice2.png);
+    animation: spin2 1s infinite linear;
+}
+
+@keyframes spin2 {
+    30% { transform: rotate(0deg);}
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg);}
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(20deg); }
+    100% {  transform: rotate(0deg); }
+}
+
+.dice3{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    margin-left: 20%;
+    margin-top: -34%;
+    overflow: hidden;
+    background: url(../img/dice3.png);
+    animation: spin3 1s infinite linear;
+}
+
+@keyframes spin3 {
+    30% { transform: rotate(0deg);}
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg);}
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(20deg); }
+    100% {  transform: rotate(0deg); }
+}
+
+.rouletteee{
+    width: 40vw;
+    height: 36vw;
+    background: url(../img/rouletteee.png);
+    margin-top: -13%;
+    margin-left: 2.3%;
+    animation: rouletteee 2s steps(1) infinite;
+}
+
+@keyframes rouletteee{
+    0% { background-position: 0vw;}
+    20% { background-position: -45.25vw;}
+    30% { background-position: -91.05vw;}
+    40% { background-position: -136.5vw;}
+    50% { background-position: -181.75vw;}
+    60% { background-position: -227vw;}
+    70% { background-position: -272.1vw;}
+    80% { background-position: -317.5vw;}
+    90%{ background-position: -362.7vw;}
+}
+
+.star2{
+margin-top: -39%;
+margin-left: -0.3%;
+position: absolute;
+height: 25%
+}
+
+.cardglass{
+    width: 37vw;
+    margin-left: 2.3%;
+    margin-top: -11%
+}
+
+.champagne{
+    border: #3D0707 solid 0.5vw;
+    width: 53.5vw;
+    height: 38vw;
+    background: #FAEED6;
+    margin-left: 42.2%;
+    margin-top: -56%;
+    overflow: hidden;
+    background: url(../img/champagne.png);
+    animation: champagne 0.9s steps(1) infinite;
+}
+
+@keyframes champagne{
+    0%{ background-position: 0vw;}
+    50%{ background-position: 55vw;}
+    100% { background-position: 0vw;}
+}
+
+.cardb{
+    margin-top: -30%
+}
+
+.cardb1{
+    width: 43%;
+    margin-top: -15%;
+    margin-left: 3%;
+    animation: cardb1 3s ease infinite
+}
+
+@keyframes cardb1 {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-30px);}
+    20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+
+.cardb2{
+    width: 24%;
+    margin-top: 2%;
+    margin-left: -37%;
+    position: absolute;
+    animation: cardb2 3s ease infinite
+}
+
+@keyframes cardb2 {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateY(20px);}
+    20%, 40%, 60%, 80% {transform: translateY(-10px);}
+}
+
+.cardb3{
+    position: absolute;
+    width: 15.5%;
+    margin-top: -5%;
+    margin-left: -17%;
+    animation: cardb3 3s ease infinite; /*steps(1) 0.5s infinite*/
+}
+
+  @keyframes cardb3 {
+      0%, 100% {transform: translateX(0);}
+      10%, 30%, 50%, 70%, 90% {transform: translateX(-20px);}
+      20%, 40%, 60%, 80% {transform: translateX(10px);}
+  }
+
+.cardb4{
+    width: 47%;
+    margin-top: -57%;
+    margin-left: -48%;
+    animation: cardb4 3s ease infinite
+}
+
+@keyframes cardb4 {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateY(-20px);}
+    20%, 40%, 60%, 80% {transform: translateY(10px);}
+
+
+    /*0% { transform: rotate(0deg);}
+    50% { transform: rotate(20deg);}
+    100% {  transform: rotate(0deg); }
+    30% { transform: rotate(0deg);}
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg);}
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(20deg); }
+    100% {  transform: rotate(0deg); }*/
+}
+
+
+.glasssign{
+    width: 35%;
+    margin-top: -6%
+}
+
+.chips{
+    border: #3D0707 solid 0.5vw;
+    width: 53.5vw;
+    height: 17.6vw;
+    background: #FAEED6;
+    margin-left: 42.2%;
+    margin-top: -30.2%;
+    overflow: hidden;
+    background: url(../img/chips.png);
+    animation: chips 0.9s steps(1) infinite;
+}
+
+@keyframes chips{
+    0%{background-position: 0vw;}
+    20%{background-position: -70.1vw;}
+    40% {background-position: -138.8vw;}
+    60% {background-position: -207.9vw;}
+    70% {background-position: -278.8vw;}
+    80% {background-position: -349vw;}
+    90% {background-position: -419.8vw;}
 }
