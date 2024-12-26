@@ -1,0 +1,140 @@
+@keyframes hadle{
+    0%{ background-position: 0px;}
+    20%{ background-position: -179px;}
+    40%{ background-position: -358px;}
+    60%{ background-position: -537px;}
+    100%{ background-position: -716px;}
+}
+
+@keyframes tickets{
+    0%{ background-position: 0px;}
+    40%{ background-position: 219px;}
+    60%{ background-position: 438px;}
+    80%{ background-position: 657px;}
+    100%{ background-position: 890px;}
+}
+
+@keyframes hourglass{
+    0%{background-position: 0px; }
+    20%{background-position: -825px; }
+    40%{background-position: -1626px; }
+    60%{background-position: -2482px; }
+    100%{background-position: -3250px; }
+}
+
+@keyframes spin {
+    30% { transform: rotate(0deg);}
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg);}
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(20deg); }
+    100% {  transform: rotate(0deg); }
+}
+
+@keyframes spin2 {
+    30% { transform: rotate(0deg);}
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg);}
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(20deg); }
+    100% {  transform: rotate(0deg); }
+}
+
+@keyframes spin3 {
+    30% { transform: rotate(0deg);}
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg);}
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(20deg); }
+    100% {  transform: rotate(0deg); }
+}
+
+@keyframes rouletteee{
+    0% { background-position: 0vw;}
+    20% { background-position: -45.25vw;}
+    30% { background-position: -91.05vw;}
+    40% { background-position: -136.5vw;}
+    50% { background-position: -181.75vw;}
+    60% { background-position: -227vw;}
+    70% { background-position: -272.1vw;}
+    80% { background-position: -317.5vw;}
+    90%{ background-position: -362.7vw;}
+}
+
+@keyframes champagne{
+    0%{ background-position: 0vw;}
+    50%{ background-position: 55vw;}
+    100% { background-position: 0vw;}
+}
+
+
+@keyframes cardb1 {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-30px);}
+    20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+
+@keyframes cardb2 {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateY(20px);}
+    20%, 40%, 60%, 80% {transform: translateY(-10px);}
+}
+
+@keyframes cardb3 {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-20px);}
+    20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+
+@keyframes cardb4 {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateY(-20px);}
+    20%, 40%, 60%, 80% {transform: translateY(10px);}
+}
+
+@keyframes glasssign{
+    0%{ transform: translateX(0vw)}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(2vw);}
+    20%, 40%, 60%, 80% {transform: translateX(0vw);}
+    }
+
+@keyframes glasssign2{
+        0%{ transform: translateX(0vw)}
+        10%, 30%, 50%, 70%, 90% {transform: translateX(-2vw);}
+        20%, 40%, 60%, 80% {transform: translateX(0vw);}
+        }
+        
+@keyframes chips{
+    0%{background-position: 0vw;}
+    20%{background-position: -70.1vw;}
+    40% {background-position: -138.8vw;}
+    60% {background-position: -207.9vw;}
+    70% {background-position: -278.8vw;}
+    80% {background-position: -349vw;}
+    90% {background-position: -419.8vw;}
+}
+
+@keyframes glasssign3{
+    0%{ transform: translateX(0vw)}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(2vw);}
+    20%, 40%, 60%, 80% {transform: translateX(0vw);}
+}
+
+@keyframes glasssign4{
+    0%{ transform: translateX(0vw)}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-2vw);}
+    20%, 40%, 60%, 80% {transform: translateX(0vw);}
+}
+
+@keyframes glasssign5{
+    0%{ transform: translateX(0vw)}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-2vw);}
+    20%, 40%, 60%, 80% {transform: translateX(0vw);}
+}
+
+
+@keyframes signature{
+    0%{ transform: translateX(0vw)}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-2vw);}
+    20%, 40%, 60%, 80% {transform: translateX(0vw);}
+}

@@ -233,13 +233,13 @@ body{
     animation: hadle 1s steps(1) infinite;
 }
 
-@keyframes hadle{
+/*@keyframes hadle{
     0%{ background-position: 0px;}
     20%{ background-position: -179px;}
     40%{ background-position: -358px;}
     60%{ background-position: -537px;}
     100%{ background-position: -716px;}
-}
+}*/
 
 .ticket{
     position: absolute;
@@ -280,13 +280,13 @@ body{
     animation: tickets 1s steps(1) infinite;
 }
 
-@keyframes tickets{
+/*@keyframes tickets{
     0%{ background-position: 0px;}
     40%{ background-position: 219px;}
     60%{ background-position: 438px;}
     80%{ background-position: 657px;}
     100%{ background-position: 890px;}
-}
+}*/
 
 .broken{
     border: #3D0707 solid 0.5vw;
@@ -300,14 +300,14 @@ body{
     animation: hourglass 0.9s steps(1) infinite;
 }
 
-@keyframes hourglass{
+/*@keyframes hourglass{
     0%{background-position: 0px; }
     20%{background-position: -825px; }
     40%{background-position: -1626px; }
     60%{background-position: -2482px; }
     100%{background-position: -3250px; }
 }
-
+*/
 .diceglass{
     margin-left: 2.3%;
     margin-top: -39%;
@@ -331,7 +331,7 @@ body{
     animation: spin 1s infinite linear;
 }
 
-@keyframes spin {
+/*@keyframes spin {
     30% { transform: rotate(0deg);}
     40%, 60% { transform: rotate(-20deg); }
     50% { transform: rotate(20deg);}
@@ -339,7 +339,7 @@ body{
     80% { transform: rotate(20deg); }
     100% {  transform: rotate(0deg); }
 }
-
+*/
 
 .dice2{
     position: absolute;
@@ -352,14 +352,14 @@ body{
     animation: spin2 1s infinite linear;
 }
 
-@keyframes spin2 {
+/*@keyframes spin2 {
     30% { transform: rotate(0deg);}
     40%, 60% { transform: rotate(-20deg); }
     50% { transform: rotate(20deg);}
     70% { transform: rotate(0deg); }
     80% { transform: rotate(20deg); }
     100% {  transform: rotate(0deg); }
-}
+}*/
 
 .dice3{
     position: absolute;
@@ -372,14 +372,14 @@ body{
     animation: spin3 1s infinite linear;
 }
 
-@keyframes spin3 {
+/*@keyframes spin3 {
     30% { transform: rotate(0deg);}
     40%, 60% { transform: rotate(-20deg); }
     50% { transform: rotate(20deg);}
     70% { transform: rotate(0deg); }
     80% { transform: rotate(20deg); }
     100% {  transform: rotate(0deg); }
-}
+}*/
 
 .rouletteee{
     width: 40vw;
@@ -390,7 +390,7 @@ body{
     animation: rouletteee 2s steps(1) infinite;
 }
 
-@keyframes rouletteee{
+/*@keyframes rouletteee{
     0% { background-position: 0vw;}
     20% { background-position: -45.25vw;}
     30% { background-position: -91.05vw;}
@@ -400,7 +400,7 @@ body{
     70% { background-position: -272.1vw;}
     80% { background-position: -317.5vw;}
     90%{ background-position: -362.7vw;}
-}
+}*/
 
 .star2{
 margin-top: -39%;
@@ -427,11 +427,11 @@ height: 25%
     animation: champagne 0.9s steps(1) infinite;
 }
 
-@keyframes champagne{
+/*@keyframes champagne{
     0%{ background-position: 0vw;}
     50%{ background-position: 55vw;}
     100% { background-position: 0vw;}
-}
+}*/
 
 .cardb{
     margin-top: -30%
@@ -444,11 +444,11 @@ height: 25%
     animation: cardb1 3s ease infinite
 }
 
-@keyframes cardb1 {
+/*@keyframes cardb1 {
     0%, 100% {transform: translateX(0);}
     10%, 30%, 50%, 70%, 90% {transform: translateX(-30px);}
     20%, 40%, 60%, 80% {transform: translateX(10px);}
-}
+}*/
 
 .cardb2{
     width: 24%;
@@ -458,11 +458,11 @@ height: 25%
     animation: cardb2 3s ease infinite
 }
 
-@keyframes cardb2 {
+/*@keyframes cardb2 {
     0%, 100% {transform: translateX(0);}
     10%, 30%, 50%, 70%, 90% {transform: translateY(20px);}
     20%, 40%, 60%, 80% {transform: translateY(-10px);}
-}
+}*/
 
 .cardb3{
     position: absolute;
@@ -472,41 +472,36 @@ height: 25%
     animation: cardb3 3s ease infinite; /*steps(1) 0.5s infinite*/
 }
 
-  @keyframes cardb3 {
-      0%, 100% {transform: translateX(0);}
-      10%, 30%, 50%, 70%, 90% {transform: translateX(-20px);}
-      20%, 40%, 60%, 80% {transform: translateX(10px);}
-  }
 
 .cardb4{
     width: 47%;
-    margin-top: -57%;
+    margin-top: 3%;
     margin-left: -48%;
-    animation: cardb4 3s ease infinite
+    animation: cardb4 3s ease infinite;
+    position: absolute;
 }
-
-@keyframes cardb4 {
-    0%, 100% {transform: translateX(0);}
-    10%, 30%, 50%, 70%, 90% {transform: translateY(-20px);}
-    20%, 40%, 60%, 80% {transform: translateY(10px);}
-
-
-    /*0% { transform: rotate(0deg);}
-    50% { transform: rotate(20deg);}
-    100% {  transform: rotate(0deg); }
-    30% { transform: rotate(0deg);}
-    40%, 60% { transform: rotate(-20deg); }
-    50% { transform: rotate(20deg);}
-    70% { transform: rotate(0deg); }
-    80% { transform: rotate(20deg); }
-    100% {  transform: rotate(0deg); }*/
-}
-
 
 .glasssign{
-    width: 35%;
-    margin-top: -6%
+    display:flex;
+    align-items: flex-start;
 }
+
+.glasssign1{
+    width: 35%;
+    margin-top: -6%;
+    animation: glasssign 3s ease infinite;
+}
+
+
+.glasssign2{
+    width: 21%;
+    margin-top: 3%;
+    margin-left: -32%;
+    animation: glasssign2 3s ease infinite;
+}
+
+
+
 
 .chips{
     border: #3D0707 solid 0.5vw;
@@ -520,12 +515,70 @@ height: 25%
     animation: chips 0.9s steps(1) infinite;
 }
 
-@keyframes chips{
-    0%{background-position: 0vw;}
-    20%{background-position: -70.1vw;}
-    40% {background-position: -138.8vw;}
-    60% {background-position: -207.9vw;}
-    70% {background-position: -278.8vw;}
-    80% {background-position: -349vw;}
-    90% {background-position: -419.8vw;}
+
+.sign{
+    position: absolute;
+    width: 65%;
+    margin-top: -5%
+}
+
+.casino{
+    position: absolute;
+    width: 27%;
+    color:#C30000;
+    margin-left: 19%;
+    margin-top: 8%;
+}
+
+.oftime{
+    position: absolute;
+    width: 13%;
+    margin-left: 26%;
+    margin-top: 15%;
+}
+
+.dostoyevsky{
+    position: absolute;
+    font-size: 1.5vw;
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+.moscow{
+    position: absolute;
+    width: 37%;
+    margin-left: 14.8%;
+    margin-top: -0.5%;
+}
+
+
+
+
+.glasssign3{
+    width: 36%;
+    margin-top: 10%;
+    margin-left: 1%;
+    animation: glasssign3 3s ease infinite;
+}
+
+.glasssign4{
+    width: 35.5%;
+    margin-top: 2.3%;
+    margin-left: 25.3%;
+    animation: glasssign4 3s ease infinite;
+}
+
+.glasssign5{
+    width: 56%;
+    margin-top: 11.8%;
+    margin-left: -56%;
+    animation: glasssign5 3s ease infinite;
+}
+
+.signature{
+    width: 49%;
+    margin-left: 52%;
+    position: absolute;
+    margin-top: -7%;
+    animation: signature 3s ease infinite;
 }
