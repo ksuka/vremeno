@@ -416,7 +416,7 @@
             position: absolute;
             width: 53%;
             margin-left: -60%;
-            margin-top: 170%;
+            margin-top: 160%;
             animation: spin2 1s infinite linear;
         }
         
@@ -425,7 +425,7 @@
             position: absolute;
             width: 53%;
             margin-left: -105%;
-            margin-top: 180%;
+            margin-top: 170%;
             animation: spin3 1s infinite linear;
         }
 
@@ -434,6 +434,15 @@
             height: 40vw;
             margin-left: 4%;
             margin-top: -120%;
+        }
+
+
+        .rouletteee{
+            width: 80vw;
+            height: 76vw;
+            background-size: cover;
+            margin-top: -13%;
+            margin-left: 2.3%;
         }
 }
 
@@ -446,6 +455,31 @@
         height: 700px;
     }
 
+    .cards img{
+        width: 22%;  
+      }
+
+
+    .card1{
+        margin-left: -42%;
+        margin-top: -40%;
+    }
+    
+    .card2{
+        margin-left: 5%;
+        margin-top: -70%;
+    }
+    
+    .card3{
+        margin-left: -31%;
+        margin-top: 15%;
+    }
+    
+    .card4{
+        margin-left: 17%;
+        margin-top: 15%;
+    }
+
     .glass1{
         width: 60%;
         margin-top: -77%;
@@ -454,8 +488,9 @@
 
     .glass2{
         width: 10%;
-        margin-top: -40%;
-        margin-left: -5%;
+        margin-top: -45%;
+        margin-left: -10%;
+        transform: rotate(-30deg);
     }
     .glass3{
         width: 65%;
@@ -464,47 +499,231 @@
     }
     
     .glass4{
-        width: 45%;
-        margin-top: -20%;
+        width: 50%;
+        margin-top: -46%;
         margin-left: 5%;
     }
     
     .glass5{
-        width: 35%;
-        margin-top: -25%;
+        width: 49%;
+        margin-top: -60%;
         margin-left: -55%;
     }
     
     .glass6{
-        width: 56%;
+        width: 110%;
         position: absolute;
-        margin-top: 41%;
-        margin-left: -56%;
+        margin-top: -5%;
+        margin-left: -63%;
     }
     
     .glass7{
-        width: 38%;
+        width: 55%;
         position: absolute;
-        margin-top: 32%;
-        margin-left: -38%;
+        margin-top: -15%;
+        margin-left: -25%;
     }
     
     .glass8{
+        width: 0%;
         position: absolute;
-        margin-top: 35%;
-        margin-left: -6%;
+        margin-top: -20%;
+        margin-left: 25%;
     }
     
     .glass9{
+        width: 170%;
         position: absolute;
-        margin-top: 29%;
+        margin-top: -20%;
         margin-left: -5%;
     }
 
     .vremeno{
         position:absolute;
-        width: 85%;
+        width: 90%;
         margin-left: -45%;
         margin-top: -20%;
     }
+
+    .watch{
+        width: 40%;
+        margin-left: 55%;
+        margin-top: 57%;
+    }
+
+    .piece img{
+        width: 0%;
+    }
+    .roulette img{
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 15%;
+    }
+
+    
+.hadle{
+    border: black 1px solid;
+    position: absolute;
+    margin-left: -60%;
+    margin-top: 0%;
+    background: url(../img/handle.png);
+    width: 30%;
+    height: 75%;
+    overflow: hidden;
+    animation: handle 1s steps(1) infinite;
+}
+
+
+.ticket{
+    font-size: 4vw;
+    margin-left: 4.5%;
+    margin-top: -24%;
+}
+
+.seven1{
+    font-size: 11vw;
+    margin-left: 35%;
+    margin-top: -28%;
+}
+
+.seven2{
+    font-size: 11vw;
+    margin-left: 71%;
+    margin-top: -28%;
+}
+
+.hourglass{
+    width: 6%;
+    margin-left: 54%;
+    margin-top: -26%;
+}
+
+
+    .razbit img{
+        position:relative;
+         width: 35%;
+         margin-top: 8%;
+         margin-left: 2%;
+     }
+
+    .table{
+        width: 93%;
+        margin-left: 2%;
+        margin-top: 155%;
+    }
+
+    .broken{
+        border: #3D0707 solid 1vw;
+        width: 88vw;
+        height: 103vw;
+        background: #FAEED6;
+        margin-left: 2%;
+        background-size: 100%;
+        margin-top: 2%;
+        overflow: hidden; }
+
+
+    .broken2 {
+        width: 110vw;
+        animation: hourglass 0.9s ease infinite;
+        margin-left: -15%;
+        margin-top: 0%;
+        }
+
+        .ball1{
+            position: absolute;
+            width: 13%;
+            margin-left: 24%;
+            margin-top: 180%;
+            animation: ball1a 3s ease-in-out infinite;
+        }
+        
+        
+        .ball2{
+            width: 13%;
+            position: absolute;
+            margin-left: 70%;
+            margin-top: 190%;
+        }
+        
+        .ball8{
+            width: 13%;
+            position: absolute;
+            margin-left: 35%;
+            margin-top: 210%;
+            animation: ball8 3s ease-in-out infinite;
+        }
+        
+        .ball4{
+            width: 13%;
+            position: absolute;
+            margin-left: 9%;
+            margin-top: 250%;
+        }
+        
+        .ball3{
+            width: 13%;
+            position: absolute;
+            margin-left: 60%;
+            margin-top: 280%;
+        }
+        
+        .hand{
+            width: 37%;
+            position: absolute;
+            margin-left: 8%;
+            margin-top: 250%;
+        }
+        
+
+        .diceglasses{
+            position:relative;
+            width: 100%;
+            margin-left: 2%;
+            margin-top: 170%;
+        }
+        
+        
+        
+        .dice1{
+            position: relative;
+            width: 43%;
+            margin-left: -45%;
+            margin-top: 80%;
+            animation: spin 1s infinite linear;
+        }
+        
+        
+        .dice2{
+            position: absolute;
+            width: 53%;
+            margin-left: -60%;
+            margin-top: 160%;
+            animation: spin2 1s infinite linear;
+        }
+        
+        
+        .dice3{
+            position: absolute;
+            width: 53%;
+            margin-left: -105%;
+            margin-top: 170%;
+            animation: spin3 1s infinite linear;
+        }
+
+        .tickets{
+            width: 15vw;
+            height: 40vw;
+            margin-left: 4%;
+            margin-top: -120%;
+        }
+
+
+        .rouletteee{
+            width: 80vw;
+            height: 76vw;
+            background-size: cover;
+            margin-top: -13%;
+            margin-left: 2.3%;
+        }
 }
