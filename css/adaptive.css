@@ -134,6 +134,25 @@
         margin-left: -5%;
     }
     
+    .hadle{
+        position: absolute;
+        margin-left: 88.5%;
+        margin-top: -31.5%;
+        background: url(../img/handle.png);
+    }
+
+    .tickets{
+        width: 15vw;
+        height: 40vw;
+        margin-left: 40%;
+        margin-top: -57%;
+    }
+
+
+
+
+
+
 }
 
 @media screen and (min-width: 415px) and (max-width: 768px){
@@ -154,6 +173,31 @@
         height: 700px;
     }
 
+    .cards img{
+        width: 22%;  
+      }
+
+
+    .card1{
+        margin-left: -42%;
+        margin-top: -40%;
+    }
+    
+    .card2{
+        margin-left: 5%;
+        margin-top: -70%;
+    }
+    
+    .card3{
+        margin-left: -31%;
+        margin-top: 15%;
+    }
+    
+    .card4{
+        margin-left: 17%;
+        margin-top: 15%;
+    }
+
     .glass1{
         width: 60%;
         margin-top: -77%;
@@ -162,8 +206,9 @@
 
     .glass2{
         width: 10%;
-        margin-top: -40%;
-        margin-left: -5%;
+        margin-top: -45%;
+        margin-left: -10%;
+        transform: rotate(-30deg);
     }
     .glass3{
         width: 65%;
@@ -172,49 +217,136 @@
     }
     
     .glass4{
-        width: 45%;
-        margin-top: -20%;
+        width: 50%;
+        margin-top: -46%;
         margin-left: 5%;
     }
     
     .glass5{
-        width: 35%;
-        margin-top: -25%;
+        width: 49%;
+        margin-top: -60%;
         margin-left: -55%;
     }
     
     .glass6{
-        width: 56%;
+        width: 110%;
         position: absolute;
-        margin-top: 41%;
-        margin-left: -56%;
+        margin-top: -5%;
+        margin-left: -63%;
     }
     
     .glass7{
-        width: 38%;
+        width: 55%;
         position: absolute;
-        margin-top: 32%;
-        margin-left: -38%;
+        margin-top: -15%;
+        margin-left: -25%;
     }
     
     .glass8{
+        width: 0%;
         position: absolute;
-        margin-top: 35%;
-        margin-left: -6%;
+        margin-top: -20%;
+        margin-left: 25%;
     }
     
     .glass9{
+        width: 170%;
         position: absolute;
-        margin-top: 29%;
+        margin-top: -20%;
         margin-left: -5%;
     }
 
     .vremeno{
         position:absolute;
-        width: 85%;
+        width: 90%;
         margin-left: -45%;
         margin-top: -20%;
     }
+
+    .watch{
+        width: 40%;
+        margin-left: 55%;
+        margin-top: 57%;
+    }
+
+    .piece img{
+        width: 0%;
+    }
+    .roulette img{
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 15%;
+    }
+
+    
+.hadle{
+    border: black 1px solid;
+    position: absolute;
+    margin-left: -60%;
+    margin-top: 0%;
+    background: url(../img/handle.png);
+    width: 30%;
+    height: 75%;
+    overflow: hidden;
+    animation: handle 1s steps(1) infinite;
+}
+
+
+.ticket{
+    font-size: 4vw;
+    margin-left: 4.5%;
+    margin-top: -24%;
+}
+
+.seven1{
+    font-size: 11vw;
+    margin-left: 35%;
+    margin-top: -28%;
+}
+
+.seven2{
+    font-size: 11vw;
+    margin-left: 71%;
+    margin-top: -28%;
+}
+
+.hourglass{
+    width: 6%;
+    margin-left: 54%;
+    margin-top: -26%;
+}
+
+
+    .razbit img{
+        position:relative;
+         width: 35%;
+         margin-top: 8%;
+         margin-left: 2%;
+     }
+
+    .table{
+        width: 38%;
+        margin-left: 2%;
+        margin-top: 45%;
+    }
+
+    .broken{
+        border: #3D0707 solid 0.5vw;
+        width: 88vw;
+        height: 100vw;
+        background: #FAEED6;
+        margin-left: 2%;
+        background-size: 100%;
+        margin-top: 2%;
+        overflow: hidden; }
+
+
+    .broken2 {
+        width: 110vw;
+        animation: hourglass 0.9s ease infinite;
+        margin-left: -15%;
+        margin-top: 0%;
+        }
 }
 
 @media screen and (min-device-width: 360px) and (max-device-width: 414px){
