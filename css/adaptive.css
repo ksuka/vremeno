@@ -438,12 +438,31 @@
 
 
         .rouletteee{
-            width: 80vw;
-            height: 76vw;
+            width: 89vw;
+            height: 84vw;
             background-size: cover;
-            margin-top: -13%;
+            margin-top: -32%;
             margin-left: 2.3%;
+            animation: roulett 2s steps(1) infinite;
         }
+
+    @keyframes roulett {
+    0% { background-position: 0vw;}
+    20% { background-position: -213vw;}
+    30% { background-position: -425.5vw;}
+   40% { background-position: -637.8vw;}
+    50% { background-position: -850vw;}
+    60% { background-position: -1070vw;}
+    70% { background-position: -1283svw;}
+   80% { background-position: -1497vw;}
+        }
+
+        .star2{
+            margin-top: -39%;
+            margin-left: -0.3%;
+            position: absolute;
+            height: 25%
+            }
 }
 
 @media screen and (min-device-width: 360px) and (max-device-width: 414px){
@@ -720,10 +739,22 @@
 
 
         .rouletteee{
-            width: 80vw;
-            height: 76vw;
+            width: 89vw;
+            height: 84vw;
             background-size: cover;
-            margin-top: -13%;
+            margin-top: -32%;
             margin-left: 2.3%;
+            animation: roulett 2s steps(1) infinite;
+        }
+
+    @keyframes roulett {
+    0% { background-position: 0vw;}
+    20% { background-position: -213vw;}
+    30% { background-position: -425.5vw;}
+   40% { background-position: -637.8vw;}
+    50% { background-position: -850vw;}
+    60% { background-position: -1070vw;}
+    70% { background-position: -1283svw;}
+   80% { background-position: -1497vw;}
         }
 }
