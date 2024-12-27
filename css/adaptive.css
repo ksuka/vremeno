@@ -550,6 +550,52 @@
                 /*100% { background-position: 7.4vw;}*/
             }
             
+
+            .chips{
+                border: #3D0707 solid 1vw;
+                width: 87vw;
+                height: 25vw;
+                background: #FAEED6;
+                margin-left: 2%;
+                margin-top: 9%;
+                overflow: hidden;
+                background: url(../img/chips.png);
+            }
+
+            .sign{
+                position: absolute;
+                width: 65%;
+                margin-top: -5%
+            }
+            
+            .casino{
+                position: absolute;
+                width: 27%;
+                color:#C30000;
+                margin-left: 19%;
+                margin-top: 8%;
+            }
+            
+            .oftime{
+                position: absolute;
+                width: 13%;
+                margin-left: 26%;
+                margin-top: 15%;
+            }
+            
+            .dostoyevsky{
+                position: absolute;
+                font-size: 1.5vw;
+                margin-left: 27%;
+                margin-top: 5%;
+            }
+            
+            .moscow{
+                position: absolute;
+                width: 37%;
+                margin-left: 14.8%;
+                margin-top: -0.5%;
+            }
 }
 
 @media screen and (min-device-width: 360px) and (max-device-width: 414px){
