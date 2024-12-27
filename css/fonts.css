@@ -1,14 +1,4 @@
 @font-face {
-    font-family: "Ambidexter-Regular";
-    src: url("../fonts/ambidexter.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-    }
-
-h1{ font-family: 'Ambidexter-Regular'; }
-h2{ font-family: 'Ambidexter-Regular'; }
-
-@font-face {
     font-family: "GaramondPremierPro-Regular";
     src: url("../fonts/garamondpremrpro.otf") format("truetype");
     font-style: normal;

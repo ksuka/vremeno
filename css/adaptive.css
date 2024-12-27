@@ -453,16 +453,83 @@
    40% { background-position: -637.8vw;}
     50% { background-position: -850vw;}
     60% { background-position: -1070vw;}
-    70% { background-position: -1283svw;}
-   80% { background-position: -1497vw;}
+    70% { background-position: -1282svw;}
+   80% { background-position: -1495vw;}
         }
 
         .star2{
-            margin-top: -39%;
+            margin-top: -91%;
             margin-left: -0.3%;
-            position: absolute;
-            height: 25%
+            height: 23%
             }
+
+            .cardglass{
+                width: 89vw;
+                margin-left: 2.3%;
+                margin-top: -28%
+            }
+
+            .cardb{
+                margin-top: -30%
+            }
+            
+            .cardb1{
+                width: 76%;
+                margin-top: -105%;
+                margin-left: 3%;
+                animation: cardb1 3s ease infinite
+            }
+            
+            
+            .cardb2{
+                width: 45%;
+                margin-top: -95%;
+                margin-left: -45%;
+                position: absolute;
+                animation: cardb2 3s ease infinite
+            }
+            
+            
+            .cardb3{
+                position: absolute;
+                width: 30%;
+                margin-top: -125%;
+                margin-left: -17%;
+                animation: cardb3 3s ease infinite; 
+            }
+            
+            
+            .cardb4{
+                width: 87%;
+                margin-top: -95%;
+                margin-left: -20%;
+                animation: cardb4 3s ease infinite;
+                position: absolute;
+            }
+
+            .champagne{
+                border: #3D0707 solid 1vw;
+                width: 87vw;
+                height: 60vw;
+                background: #FAEED6;
+                position: relative;
+                /*background-size: inherit;*/
+                margin-left: 2%;
+                margin-top: -45%;
+                overflow: hidden;
+                background: url(../img/champagne.png);
+                background-size: cover;
+                /*background-repeat: no-repeat;
+                background-position: center;*/
+                animation: champagne1 0.9s steps(1) infinite;
+            }
+
+            @keyframes champagne1{
+                /*0%{ background-position: 7.4vw;}*/
+                50%{ background-position: 92vw;}
+                /*100% { background-position: 7.4vw;}*/
+            }
+            
 }
 
 @media screen and (min-device-width: 360px) and (max-device-width: 414px){
@@ -757,4 +824,78 @@
     70% { background-position: -1283svw;}
    80% { background-position: -1497vw;}
         }
+        
+        .star2{
+            margin-top: -91%;
+            margin-left: -0.3%;
+            height: 23%
+            }
+
+
+            .cardglass{
+                width: 89vw;
+                margin-left: 2.3%;
+                margin-top: -28%
+            }
+
+            .cardb{
+                margin-top: -30%
+            }
+            
+            .cardb1{
+                width: 76%;
+                margin-top: -105%;
+                margin-left: 3%;
+                animation: cardb1 3s ease infinite
+            }
+            
+            
+            .cardb2{
+                width: 45%;
+                margin-top: -95%;
+                margin-left: -45%;
+                position: absolute;
+                animation: cardb2 3s ease infinite
+            }
+            
+            
+            .cardb3{
+                position: absolute;
+                width: 30%;
+                margin-top: -125%;
+                margin-left: -17%;
+                animation: cardb3 3s ease infinite; 
+            }
+            
+            
+            .cardb4{
+                width: 87%;
+                margin-top: -95%;
+                margin-left: -20%;
+                animation: cardb4 3s ease infinite;
+                position: absolute;
+            }
+
+            .champagne{
+                border: #3D0707 solid 1vw;
+                width: 87vw;
+                height: 60vw;
+                background: #FAEED6;
+                position: relative;
+                /*background-size: inherit;*/
+                margin-left: 2%;
+                margin-top: -45%;
+                overflow: hidden;
+                background: url(../img/champagne.png);
+                background-size: cover;
+                /*background-repeat: no-repeat;
+                background-position: center;*/
+                animation: champagne1 0.9s steps(1) infinite;
+            }
+
+            @keyframes champagne1{
+                /*0%{ background-position: 7.4vw;}*/
+                50%{ background-position: 92vw;}
+                /*100% { background-position: 7.4vw;}*/
+            }
 }
