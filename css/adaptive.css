@@ -325,15 +325,15 @@
      }
 
     .table{
-        width: 38%;
+        width: 93%;
         margin-left: 2%;
-        margin-top: 45%;
+        margin-top: 155%;
     }
 
     .broken{
-        border: #3D0707 solid 0.5vw;
+        border: #3D0707 solid 1vw;
         width: 88vw;
-        height: 100vw;
+        height: 103vw;
         background: #FAEED6;
         margin-left: 2%;
         background-size: 100%;
@@ -346,6 +346,87 @@
         animation: hourglass 0.9s ease infinite;
         margin-left: -15%;
         margin-top: 0%;
+        }
+
+        .ball1{
+            position: absolute;
+            width: 13%;
+            margin-left: 24%;
+            margin-top: 180%;
+            animation: ball1a 3s ease-in-out infinite;
+        }
+        
+        
+        .ball2{
+            width: 13%;
+            position: absolute;
+            margin-left: 70%;
+            margin-top: 190%;
+        }
+        
+        .ball8{
+            width: 13%;
+            position: absolute;
+            margin-left: 35%;
+            margin-top: 210%;
+            animation: ball8 3s ease-in-out infinite;
+        }
+        
+        .ball4{
+            width: 13%;
+            position: absolute;
+            margin-left: 9%;
+            margin-top: 250%;
+        }
+        
+        .ball3{
+            width: 13%;
+            position: absolute;
+            margin-left: 60%;
+            margin-top: 280%;
+        }
+        
+        .hand{
+            width: 37%;
+            position: absolute;
+            margin-left: 8%;
+            margin-top: 250%;
+        }
+        
+
+        .diceglasses{
+            position:relative;
+            width: 100%;
+            margin-left: 2%;
+            margin-top: 160%;
+        }
+        
+        
+        
+        .dice1{
+            position: absolute;
+            width: 32%;
+            margin-left: -45%;
+            margin-top: 50%;
+            animation: spin 1s infinite linear;
+        }
+        
+        
+        .dice2{
+            position: absolute;
+            width: 22%;
+            margin-left: -33%;
+            margin-top: -33%;
+            animation: spin2 1s infinite linear;
+        }
+        
+        
+        .dice3{
+            position: absolute;
+            width: 22%;
+            margin-left: -20%;
+            margin-top: -30%;
+            animation: spin3 1s infinite linear;
         }
 }
 

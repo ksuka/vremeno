@@ -338,7 +338,7 @@ animation: hourglass 0.9s steps(1) infinite;
 
 
 .dicesect{
-    margin-top: -10%;
+    margin-top: -8%;
     display: flex;
     align-items:flex-start;
 }
@@ -408,7 +408,7 @@ height: 25%
     height: 38vw;
     background: #FAEED6;
     margin-left: 42.2%;
-    margin-top: -56%;
+    margin-top: -58%;
     overflow: hidden;
     background: url(../img/champagne.png);
     animation: champagne 0.9s steps(1) infinite;
