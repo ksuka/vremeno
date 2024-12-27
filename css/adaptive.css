@@ -557,45 +557,84 @@
                 height: 25vw;
                 background: #FAEED6;
                 margin-left: 2%;
-                margin-top: 9%;
+                margin-top: 30%;
                 overflow: hidden;
                 background: url(../img/chips.png);
             }
-
             .sign{
                 position: absolute;
-                width: 65%;
+                width: 95%;
                 margin-top: -5%
             }
             
             .casino{
                 position: absolute;
-                width: 27%;
+                width: 45%;
                 color:#C30000;
-                margin-left: 19%;
-                margin-top: 8%;
+                margin-left: 25%;
+                margin-top: 15%;
             }
             
             .oftime{
                 position: absolute;
-                width: 13%;
-                margin-left: 26%;
-                margin-top: 15%;
+                width: 18%;
+                margin-left: 35%;
+                margin-top: 27%;
             }
             
             .dostoyevsky{
                 position: absolute;
-                font-size: 1.5vw;
-                margin-left: 27%;
-                margin-top: 5%;
+                font-size: 3vw;
+                margin-left: 35%;
+                margin-top: 10%;
             }
             
             .moscow{
                 position: absolute;
-                width: 37%;
-                margin-left: 14.8%;
-                margin-top: -0.5%;
+                width: 54%;
+                margin-left: 22%;
+                margin-top: 1.5%;
             }
+            
+            .glasssign1{
+                width: 0%;
+            }
+            
+            
+            .glasssign2{
+                width: 0%;
+            }
+
+            
+.glasssign3{
+    width: 36%;
+    margin-top: 10%;
+    margin-left: 1%;
+    animation: glasssign3 3s ease infinite;
+}
+
+.glasssign4{
+    width: 35.5%;
+    margin-top: 2.3%;
+    margin-left: 25.3%;
+    animation: glasssign4 3s ease infinite;
+}
+
+.glasssign5{
+    width: 56%;
+    margin-top: 11.8%;
+    margin-left: -56%;
+    animation: glasssign5 3s ease infinite;
+}
+
+.signature{
+    width: 49%;
+    margin-left: 52%;
+    position: absolute;
+    margin-top: -7%;
+    animation: signature 3s ease infinite;
+}
+            
 }
 
 @media screen and (min-device-width: 360px) and (max-device-width: 414px){
@@ -919,4 +958,58 @@
                 /*100% { background-position: 7.4vw;}*/
             }
 
+            
+            .chips{
+                border: #3D0707 solid 1vw;
+                width: 87vw;
+                height: 25vw;
+                background: #FAEED6;
+                margin-left: 2%;
+                margin-top: 9%;
+                overflow: hidden;
+                background: url(../img/chips.png);
+            }
+            .sign{
+                position: absolute;
+                width: 95%;
+                margin-top: -5%
+            }
+            
+            .casino{
+                position: absolute;
+                width: 45%;
+                color:#C30000;
+                margin-left: 25%;
+                margin-top: 15%;
+            }
+            
+            .oftime{
+                position: absolute;
+                width: 18%;
+                margin-left: 35%;
+                margin-top: 27%;
+            }
+            
+            .dostoyevsky{
+                position: absolute;
+                font-size: 3vw;
+                margin-left: 35%;
+                margin-top: 10%;
+            }
+            
+            .moscow{
+                position: absolute;
+                width: 54%;
+                margin-left: 22%;
+                margin-top: 1.5%;
+            }
+            
+            .glasssign1{
+                width: 0%;
+            }
+            
+            
+            .glasssign2{
+                width: 0%;
+            }
 }
