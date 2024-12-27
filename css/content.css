@@ -5,10 +5,10 @@ body{
 }
 
 .background{
-    position: absolute;
-    margin-left: -51%;
-    margin-top: -1%;
-    width:101%;
+    position: relative;
+    margin-left: -2%;
+    margin-top: -2%;
+    width:102%;
 }
 
 .h{
@@ -23,6 +23,9 @@ body{
    margin: auto;
 }
 
+.cards {
+    margin-top: -73%;
+  }
 
 .cards img{
   width: 19%;  
@@ -92,6 +95,7 @@ body{
 }
 
 .glass6{
+    width: 56%;
     position: absolute;
     margin-top: 41%;
     margin-left: -56%;
@@ -126,39 +130,37 @@ body{
 }
 
 .watch{
-    position:absolute;
-    color: #FAEED6;
-    font-size: 70px;
-    margin-left: 73%;
-    margin-top: -7%;
+    position:relative;
+    width: 29%;
+    margin-left: 67.5%;
+    margin-top: 75%;
     letter-spacing: 14%;
 }
 
 
-.razbit{
-   position: relative;
-    font-size: 9vw;
-    color: #E7AF3E;
-    margin-top: 0%;
-    margin-left: 45%;
-    margin-top: 82%;
-    line-height: 90%;
-    letter-spacing: 14%;
-}
+.razbit img{
+    position:relative;
+     width: 38%;
+     margin-top: 5%;
+     margin-left: 45%;
+ }
 
 .table{
     position: absolute;
     width: 38%;
     margin-left: 2%;
-    margin-top: -31%;
+    margin-top: -25%;
 }
 
 .ball1{
+    position: relative ;
     width: 5.5%;
-    position: absolute;
+   
     margin-left: 13%;
     margin-top: -21%;
+    animation: ball1a 3s ease-in-out infinite;
 }
+
 
 .ball2{
     width: 5.5%;
@@ -208,7 +210,10 @@ body{
 }
 
 .piece img{
-    width: 90%;
+    position:relative;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 14%;
 }
 
 .roulette{
@@ -218,7 +223,7 @@ body{
 .roulette img{
     width: 57%;
     margin-left: 42%;
-    margin-top: 1.5%;
+    margin-top: 3.5%;
 }
 
 
@@ -227,19 +232,12 @@ body{
     margin-left: 88.5%;
     margin-top: -31.5%;
     background: url(../img/handle.png);
-    width: 20%;
+    width: 10%;
     height: 75%;
     overflow: hidden;
-    animation: hadle 1s steps(1) infinite;
+    animation: handle 1s steps(1) infinite;
 }
 
-/*@keyframes hadle{
-    0%{ background-position: 0px;}
-    20%{ background-position: -179px;}
-    40%{ background-position: -358px;}
-    60%{ background-position: -537px;}
-    100%{ background-position: -716px;}
-}*/
 
 .ticket{
     position: absolute;
@@ -272,21 +270,28 @@ body{
 
 .tickets{
     background: url(../img/tickets.png);
-    width: 219px;
-    height: 663px;
+    width: 15vw;
+    height: 40vw;
     position: absolute;
     margin-left: 40%;
-    margin-top: -5.5%;
+    margin-top: -57%;
     animation: tickets 1s steps(1) infinite;
 }
 
-/*@keyframes tickets{
-    0%{ background-position: 0px;}
-    40%{ background-position: 219px;}
-    60%{ background-position: 438px;}
-    80%{ background-position: 657px;}
-    100%{ background-position: 890px;}
-}*/
+/*.broken{
+    position:relative;
+    background-position: 0 0;
+    border: #3D0707 solid 0.5vw;
+    width: 53.5vw;
+    height: 48vw;
+    background: #FAEED6;
+    margin-left: 42.2%;
+    background-size: 100%;
+    margin-top: 2%;
+    overflow: hidden;
+    background: url(../img/broken.png);
+    animation: hourglass 0.9s steps(1) infinite;
+}
 
 .broken{
     border: #3D0707 solid 0.5vw;
@@ -298,88 +303,67 @@ body{
     overflow: hidden;
     background: url(../img/broken.png);
     animation: hourglass 0.9s steps(1) infinite;
-}
-
-/*@keyframes hourglass{
-    0%{background-position: 0px; }
-    20%{background-position: -825px; }
-    40%{background-position: -1626px; }
-    60%{background-position: -2482px; }
-    100%{background-position: -3250px; }
-}
-*/
-.diceglass{
-    margin-left: 2.3%;
-    margin-top: -39%;
-    width: 600px;
-    height: 450px;
+}*/
+ 
+.broken{
+    position:relative;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border: #3D0707 solid 0.5vw;
+    width: 53.5vw;
+    height: 48vw;
+    background: #FAEED6;
+    margin-left: 42.2%;
+    background-size: contain;
+    margin-top: 2%;
     overflow: hidden;
+    background: url(../img/broken.png);
+    animation: hourglass 0.9s steps(1) infinite;
 }
 
-.diceglass img{
-    width: 103%
+
+
+.dicesect{
+    margin-top: -10%;
+    display: flex;
+    align-items:flex-start;
 }
+
+.diceglasses{
+    position:relative;
+    width: 41%;
+    margin-left: 2%;
+    margin-top: -40%;
+}
+
+
 
 .dice1{
     position: absolute;
-    width: 20%;
-    height: 40%;
-    margin-left: -5%;
-    margin-top: -32%;
-    overflow: hidden;
-    background: url(../img/dice.png);
+    width: 22%;
+    margin-left: -45%;
+    margin-top: -29%;
     animation: spin 1s infinite linear;
 }
 
-/*@keyframes spin {
-    30% { transform: rotate(0deg);}
-    40%, 60% { transform: rotate(-20deg); }
-    50% { transform: rotate(20deg);}
-    70% { transform: rotate(0deg); }
-    80% { transform: rotate(20deg); }
-    100% {  transform: rotate(0deg); }
-}
-*/
 
 .dice2{
     position: absolute;
-    width: 20%;
-    height: 40%;
-    margin-left: 7%;
-    margin-top: -37%;
-    overflow: hidden;
-    background: url(../img/dice2.png);
+    width: 22%;
+    margin-left: -33%;
+    margin-top: -33%;
     animation: spin2 1s infinite linear;
 }
 
-/*@keyframes spin2 {
-    30% { transform: rotate(0deg);}
-    40%, 60% { transform: rotate(-20deg); }
-    50% { transform: rotate(20deg);}
-    70% { transform: rotate(0deg); }
-    80% { transform: rotate(20deg); }
-    100% {  transform: rotate(0deg); }
-}*/
 
 .dice3{
     position: absolute;
-    width: 20%;
-    height: 40%;
-    margin-left: 20%;
-    margin-top: -34%;
-    overflow: hidden;
-    background: url(../img/dice3.png);
+    width: 22%;
+    margin-left: -20%;
+    margin-top: -30%;
     animation: spin3 1s infinite linear;
 }
 
-/*@keyframes spin3 {
-    30% { transform: rotate(0deg);}
-    40%, 60% { transform: rotate(-20deg); }
-    50% { transform: rotate(20deg);}
-    70% { transform: rotate(0deg); }
-    80% { transform: rotate(20deg); }
-    100% {  transform: rotate(0deg); }
-}*/
 
 .rouletteee{
     width: 40vw;
@@ -390,17 +374,6 @@ body{
     animation: rouletteee 2s steps(1) infinite;
 }
 
-/*@keyframes rouletteee{
-    0% { background-position: 0vw;}
-    20% { background-position: -45.25vw;}
-    30% { background-position: -91.05vw;}
-    40% { background-position: -136.5vw;}
-    50% { background-position: -181.75vw;}
-    60% { background-position: -227vw;}
-    70% { background-position: -272.1vw;}
-    80% { background-position: -317.5vw;}
-    90%{ background-position: -362.7vw;}
-}*/
 
 .star2{
 margin-top: -39%;
@@ -427,12 +400,6 @@ height: 25%
     animation: champagne 0.9s steps(1) infinite;
 }
 
-/*@keyframes champagne{
-    0%{ background-position: 0vw;}
-    50%{ background-position: 55vw;}
-    100% { background-position: 0vw;}
-}*/
-
 .cardb{
     margin-top: -30%
 }
@@ -444,11 +411,6 @@ height: 25%
     animation: cardb1 3s ease infinite
 }
 
-/*@keyframes cardb1 {
-    0%, 100% {transform: translateX(0);}
-    10%, 30%, 50%, 70%, 90% {transform: translateX(-30px);}
-    20%, 40%, 60%, 80% {transform: translateX(10px);}
-}*/
 
 .cardb2{
     width: 24%;
@@ -458,18 +420,13 @@ height: 25%
     animation: cardb2 3s ease infinite
 }
 
-/*@keyframes cardb2 {
-    0%, 100% {transform: translateX(0);}
-    10%, 30%, 50%, 70%, 90% {transform: translateY(20px);}
-    20%, 40%, 60%, 80% {transform: translateY(-10px);}
-}*/
 
 .cardb3{
     position: absolute;
     width: 15.5%;
     margin-top: -5%;
     margin-left: -17%;
-    animation: cardb3 3s ease infinite; /*steps(1) 0.5s infinite*/
+    animation: cardb3 3s ease infinite; 
 }
 
 
