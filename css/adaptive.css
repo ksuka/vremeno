@@ -144,8 +144,8 @@
     .tickets{
         width: 15vw;
         height: 40vw;
-        margin-left: 40%;
-        margin-top: -57%;
+        margin-left: 41%;
+        margin-top: -57.4%;
     }
 
 
@@ -398,35 +398,42 @@
             position:relative;
             width: 100%;
             margin-left: 2%;
-            margin-top: 160%;
+            margin-top: 170%;
         }
         
         
         
         .dice1{
-            position: absolute;
-            width: 32%;
+            position: relative;
+            width: 43%;
             margin-left: -45%;
-            margin-top: 50%;
+            margin-top: 80%;
             animation: spin 1s infinite linear;
         }
         
         
         .dice2{
             position: absolute;
-            width: 22%;
-            margin-left: -33%;
-            margin-top: -33%;
+            width: 53%;
+            margin-left: -60%;
+            margin-top: 170%;
             animation: spin2 1s infinite linear;
         }
         
         
         .dice3{
             position: absolute;
-            width: 22%;
-            margin-left: -20%;
-            margin-top: -30%;
+            width: 53%;
+            margin-left: -105%;
+            margin-top: 180%;
             animation: spin3 1s infinite linear;
+        }
+
+        .tickets{
+            width: 15vw;
+            height: 40vw;
+            margin-left: 4%;
+            margin-top: -120%;
         }
 }
 

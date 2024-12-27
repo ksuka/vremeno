@@ -20,11 +20,11 @@
 
 
 @keyframes handle{
-    0%{ background-position: 0px;}
-    20%{ background-position: -179px;}
-    40%{ background-position: -358px;}
-    60%{ background-position: -537px;}
-    100%{ background-position: -716px;}
+    0%{ background-position: 0;}
+    20%{ background-position: -70vw;}
+    40%{ background-position: -140vw;}
+    60%{ background-position: -210vw;}
+    100%{ background-position: -280vw;}
 }
 
 
@@ -32,10 +32,10 @@
 
 @keyframes tickets{
     0%{ background-position: 0px;}
-    40%{ background-position: 219px;}
-    60%{ background-position: 438px;}
-    80%{ background-position: 657px;}
-    100%{ background-position: 890px;}
+    40%{ background-position: -13.3vw;}
+    60%{ background-position: -26vw;}
+    80%{ background-position: -39vw;}
+   /*100%{ background-position: 890px;}*/
 }
 
 @keyframes hourglass {
