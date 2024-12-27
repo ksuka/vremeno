@@ -1,11 +1,20 @@
-@keyframes ball1a{
-    0%{ top: 0; left: 0;}
-    10%{ top: 4%; left: 10%;}
+/*@keyframes ball1a{
+    0%{ top: -4; left: 0;}
+    10%{ top: -4%; left: 10%;}
     30% { top: -4%; left: 4%;}
     50% { top: 0%; left: 0%;}
     70% { top: 0%; left: 0%;}
     100% {top: 0; left: 0;}
 }
+
+@keyframes ball8{
+    0%{ top: -4%; left: 0;}
+    10%{ top: -4%; left: 10%;}
+    30% { top: -4%; left: 4%;}
+    50% { top: 0%; left: 0%;}
+    70% { top: 0%; left: 0%;}
+    100% {top: 0; left: 0;}
+}*/
 
 
 
@@ -29,23 +38,26 @@
     100%{ background-position: 890px;}
 }
 
+@keyframes hourglass {
+    30% { transform: rotate(20deg) ;; }
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg) ; }
+    70% { transform: rotate(0deg); }
+    100% { transform:rotate(-20deg) ;; }
+  }
 
 
-@keyframes hourglass{
+/*@keyframes hourglass{
 
-    0%{background-position: 0px; }
-
-    20%{background-position: -825px; }
-
-    40%{background-position: -1626px; }
-
-    60%{background-position: -2482px; }
-
-    100%{background-position: -3250px; }
+    0%{background-position: 0; }
+    20%{background-position: -60vw; }
+    40%{background-position: -120vw; }
+    60%{background-position: -165vw;}
+    100%{background-position: -200vw; }
 
 }
 
-/*@keyframes hourglass{
+@keyframes hourglass{
     0%{background-position: 0px; }
     20%{background-position: -825px; }
     40%{background-position: -1626px; }

@@ -153,11 +153,10 @@ body{
 }
 
 .ball1{
-    position: relative ;
+    position: absolute;
     width: 5.5%;
-   
     margin-left: 13%;
-    margin-top: -21%;
+    margin-top: -15%;
     animation: ball1a 3s ease-in-out infinite;
 }
 
@@ -165,36 +164,37 @@ body{
 .ball2{
     width: 5.5%;
     position: absolute;
-    margin-left: 33%;
-    margin-top: -14%;
+    margin-left: 31%;
+    margin-top: -10%;
 }
 
 .ball8{
     width: 5.5%;
     position: absolute;
     margin-left: 22%;
-    margin-top: -10%;
+    margin-top: 3%;
+    animation: ball8 3s ease-in-out infinite;
 }
 
 .ball4{
     width: 5.5%;
     position: absolute;
-    margin-left: 7%;
-    margin-top: 0%;
+    margin-left: 6%;
+    margin-top: 15%;
 }
 
 .ball3{
     width: 5.5%;
     position: absolute;
-    margin-left: 28%;
-    margin-top: 20%;
+    margin-left: 27%;
+    margin-top: 24%;
 }
 
 .hand{
     width: 17%;
     position: absolute;
     margin-left: 8%;
-    margin-top: 0%;
+    margin-top: 10%;
 }
 
 .star1{
@@ -303,24 +303,37 @@ body{
     overflow: hidden;
     background: url(../img/broken.png);
     animation: hourglass 0.9s steps(1) infinite;
-}*/
+}
  
 .broken{
-    position:relative;
-    background-position: 0 0;
-    background-repeat: no-repeat;
+border: #3D0707 solid 0.5vw;
+width: 53.5vw;
+height: 48vw;
+background: #FAEED6;
+margin-left: 42.2%;
+background-size: 100%;
+margin-top: 2%;
+overflow: hidden;
+background: url(../img/broken.png);
+animation: hourglass 0.9s steps(1) infinite;
+}*/
+
+.broken{
     border: #3D0707 solid 0.5vw;
     width: 53.5vw;
     height: 48vw;
     background: #FAEED6;
     margin-left: 42.2%;
-    background-size: contain;
+    background-size: 100%;
     margin-top: 2%;
-    overflow: hidden;
-    background: url(../img/broken.png);
-    animation: hourglass 0.9s steps(1) infinite;
+    overflow: hidden; }
+   
+.broken2 {
+    width: 52vw;
+    animation: hourglass 0.9s ease infinite;
+    margin-left: 0%;
+    margin-top: 0%;
 }
-
 
 
 .dicesect{
