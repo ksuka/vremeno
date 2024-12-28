@@ -687,7 +687,7 @@
 
     .card1{
         margin-left: -42%;
-        margin-top: -70%;
+        margin-top: -100%;
     }
     
     .card2{
@@ -1147,4 +1147,5 @@
     margin-top: -7%;
     animation: signature 3s ease infinite;
 }
+
 }
