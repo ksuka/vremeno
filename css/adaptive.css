@@ -1278,7 +1278,7 @@
 
 @keyframes handlee{
     0%{ background-position: 0;}
-    20%{ background-position: 8vw;}
+    100%{ background-position: 8vw;}
     /*40%{ background-position: -140vw;}
     60%{ background-position: -210vw;}
     100%{ background-position: -280vw;}*/
@@ -1426,7 +1426,7 @@
             width: 20vw;
             height: 70vw;
             margin-left: 0%;
-            margin-top: -120%;
+            margin-top: -117%;
             animation: ticketss 1s steps(1) infinite;
         }
 
