@@ -1154,7 +1154,7 @@
     .background{
         position: relative;
         margin-left: -2%;
-        margin-top: -2%;
+        margin-top: -10%;
         height: 700px;
     }
 
@@ -1185,19 +1185,19 @@
 
     .glass1{
         width: 60%;
-        margin-top: -177%;
+        margin-top: -120%;
         margin-left: -53%;
     }
 
     .glass2{
         width: 10%;
-        margin-top: -145%;
+        margin-top: -85%;
         margin-left: -10%;
         transform: rotate(-30deg);
     }
     .glass3{
-        width: 65%;
-        margin-top: -177%;
+        width: 75%;
+        margin-top: -110%;
         margin-left: 0%;
     }
     
@@ -1209,15 +1209,15 @@
     
     .glass5{
         width: 49%;
-        margin-top: -60%;
+        margin-top: -80%;
         margin-left: -55%;
     }
     
     .glass6{
         width: 110%;
         position: absolute;
-        margin-top: -5%;
-        margin-left: -63%;
+        margin-top: -10%;
+        margin-left: -60%;
     }
     
     .glass7{
