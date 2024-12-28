@@ -554,10 +554,18 @@ height: 25%
     animation: glasssign5 3s ease infinite;
 }
 
-.signature{
-    width: 49%;
+.group{
+    width: 10%;
     margin-left: 52%;
     position: absolute;
-    margin-top: -7%;
+    margin-top: -5%;
+    animation: signature 3s ease infinite;
+}
+
+.signature{
+    width: 20%;
+    margin-left: 73%;
+    position: absolute;
+    margin-top: -5%;
     animation: signature 3s ease infinite;
 }
