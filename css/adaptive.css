@@ -675,8 +675,7 @@
     .background{
         position: relative;
         margin-left: -2%;
-        margin-top: -2%;
-        /*width:102%;*/
+        margin-top: -10%;
         height: 700px;
     }
 
@@ -692,54 +691,54 @@
     
     .card2{
         margin-left: 5%;
-        margin-top: -70%;
+        margin-top: -120%;
     }
     
     .card3{
         margin-left: -31%;
-        margin-top: 15%;
+        margin-top: -30%;
     }
     
     .card4{
         margin-left: 17%;
-        margin-top: 15%;
+        margin-top: -30%;
     }
 
     .glass1{
         width: 60%;
-        margin-top: -77%;
+        margin-top: -105%;
         margin-left: -53%;
     }
 
     .glass2{
         width: 10%;
-        margin-top: -45%;
+        margin-top: -75%;
         margin-left: -10%;
         transform: rotate(-30deg);
     }
     .glass3{
-        width: 65%;
-        margin-top: -77%;
+        width: 75%;
+        margin-top: -105%;
         margin-left: 0%;
     }
     
     .glass4{
         width: 50%;
-        margin-top: -46%;
+        margin-top: -63%;
         margin-left: 5%;
     }
     
     .glass5{
         width: 49%;
-        margin-top: -60%;
+        margin-top: -80%;
         margin-left: -55%;
     }
     
     .glass6{
         width: 110%;
         position: absolute;
-        margin-top: -5%;
-        margin-left: -63%;
+        margin-top: -10%;
+        margin-left: -65%;
     }
     
     .glass7{
@@ -759,7 +758,7 @@
     .glass9{
         width: 170%;
         position: absolute;
-        margin-top: -20%;
+        margin-top: -40%;
         margin-left: -5%;
     }
 
@@ -767,7 +766,7 @@
         position:absolute;
         width: 90%;
         margin-left: -45%;
-        margin-top: -20%;
+        margin-top: -30%;
     }
 
     .watch{
@@ -791,7 +790,7 @@
     margin-left: -220%;
     margin-top: 0%;
     background: url(../img/handle.png);
-    width: 10%;
+    width: 0%;
     height: 60%;
     overflow: hidden;
     background-size: cover;
@@ -800,7 +799,7 @@
 
 @keyframes handlee{
     0%{ background-position: 0;}
-    20%{ background-position: 8vw;}
+    100%{ background-position: 8vw;}
     /*40%{ background-position: -140vw;}
     60%{ background-position: -210vw;}
     100%{ background-position: -280vw;}*/
@@ -948,7 +947,7 @@
             width: 20vw;
             height: 70vw;
             margin-left: 0%;
-            margin-top: -120%;
+            margin-top: -117%;
             animation: ticketss 1s steps(1) infinite;
         }
 
@@ -1033,7 +1032,7 @@
 
             .champagne{
                 border: #3D0707 solid 1vw;
-                width: 87vw;
+                width: 88vw;
                 height: 60vw;
                 background: #FAEED6;
                 position: relative;
@@ -1057,7 +1056,7 @@
 
             .chips{
                 border: #3D0707 solid 1vw;
-                width: 87vw;
+                width: 88vw;
                 height: 25vw;
                 background: #FAEED6;
                 margin-left: 2%;
@@ -1147,7 +1146,6 @@
     margin-top: -7%;
     animation: signature 3s ease infinite;
 }
-
 }
 
 @media screen and (min-device-width: 100px) and (max-device-width: 359px){
