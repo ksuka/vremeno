@@ -173,8 +173,8 @@
         margin-top: -58%;
         overflow: hidden;
         background: url(../img/champagne.png);
-        background-size:contain;
-        background-repeat: no-repeat;
+        /*/background-size:contain;
+        background-repeat: no-repeat;*/
     
         animation: champagne1 0.9s steps(1) infinite;
     }
@@ -515,7 +515,7 @@
             }
 
             .cardb{
-                margin-top: -30%
+                margin-top: -50%
             }
             
             .cardb1{
@@ -582,7 +582,7 @@
                 height: 25vw;
                 background: #FAEED6;
                 margin-left: 2%;
-                margin-top: 30%;
+                margin-top: 50%;
                 overflow: hidden;
                 background: url(../img/chips.png);
             }
@@ -687,7 +687,7 @@
 
     .card1{
         margin-left: -42%;
-        margin-top: -40%;
+        margin-top: -70%;
     }
     
     .card2{
@@ -786,6 +786,25 @@
     }
 
     
+.hadle{
+    position: relative;
+    margin-left: -220%;
+    margin-top: 0%;
+    background: url(../img/handle.png);
+    width: 10%;
+    height: 60%;
+    overflow: hidden;
+    background-size: cover;
+    animation: handlee 1s steps(1) infinite;
+}
+
+@keyframes handlee{
+    0%{ background-position: 0;}
+    20%{ background-position: 8vw;}
+    /*40%{ background-position: -140vw;}
+    60%{ background-position: -210vw;}
+    100%{ background-position: -280vw;}*/
+}
 
 
 .ticket{
@@ -926,10 +945,19 @@
         }
 
         .tickets{
-            width: 15vw;
-            height: 40vw;
-            margin-left: 4%;
+            width: 20vw;
+            height: 70vw;
+            margin-left: 0%;
             margin-top: -120%;
+            animation: ticketss 1s steps(1) infinite;
+        }
+
+        @keyframes ticketss{
+            0%{ background-position: 0px;}
+            40%{ background-position: -22vw;}
+            60%{ background-position: -45vw;}
+            80%{ background-position: -66vw;}
+            100%{ background-position: -88s;}
         }
 
 
@@ -949,15 +977,60 @@
    40% { background-position: -637.8vw;}
     50% { background-position: -850vw;}
     60% { background-position: -1070vw;}
-    70% { background-position: -1283svw;}
-   80% { background-position: -1497vw;}
+    70% { background-position: -1282svw;}
+   80% { background-position: -1495vw;}
         }
-        
+
         .star2{
             margin-top: -91%;
             margin-left: -0.3%;
             height: 23%
             }
+
+            .cardglass{
+                width: 89vw;
+                margin-left: 2.3%;
+                margin-top: -28%
+            }
+
+            .cardb{
+                margin-top: -50%
+            }
+            
+            .cardb1{
+                width: 76%;
+                margin-top: -105%;
+                margin-left: 3%;
+                animation: cardb1 3s ease infinite
+            }
+            
+            
+            .cardb2{
+                width: 45%;
+                margin-top: -95%;
+                margin-left: -45%;
+                position: absolute;
+                animation: cardb2 3s ease infinite
+            }
+            
+            
+            .cardb3{
+                position: absolute;
+                width: 30%;
+                margin-top: -125%;
+                margin-left: -17%;
+                animation: cardb3 3s ease infinite; 
+            }
+            
+            
+            .cardb4{
+                width: 87%;
+                margin-top: -95%;
+                margin-left: -20%;
+                animation: cardb4 3s ease infinite;
+                position: absolute;
+            }
+
             .champagne{
                 border: #3D0707 solid 1vw;
                 width: 87vw;
@@ -980,15 +1053,15 @@
                 50%{ background-position: 92vw;}
                 /*100% { background-position: 7.4vw;}*/
             }
-
             
+
             .chips{
                 border: #3D0707 solid 1vw;
                 width: 87vw;
                 height: 25vw;
                 background: #FAEED6;
                 margin-left: 2%;
-                margin-top: 9%;
+                margin-top: 50%;
                 overflow: hidden;
                 background: url(../img/chips.png);
             }
@@ -1036,56 +1109,42 @@
                 width: 0%;
             }
 
-            .glasssign3{
-                width: 60%;
-                margin-top: 15%;
-                margin-left: 1%;
-                animation: glasssign3 3s ease infinite;
-            }
             
-            .glasssign4{
-                width: 50%;
-                margin-top: 9%;
-                margin-left: -15%;
-                animation: glasssign4 3s ease infinite;
-            }
-            
-            .glasssign5{
-                width: 0%;
-                margin-top: 25%;
-                margin-left: -90%;
-                animation: glasssign5 3s ease infinite;
-            }
-            
-            .group{
-                width: 15%;
-                margin-left: 10%;
-                position: absolute;
-                margin-top: -7%;
-                animation: signature 3s ease infinite;
-            }
-            
-            .signature{
-                width: 27%;
-                margin-left: 65%;
-                position: absolute;
-                margin-top: -7%;
-                animation: signature 3s ease infinite;
-            }
+.glasssign3{
+    width: 60%;
+    margin-top: 15%;
+    margin-left: 1%;
+    animation: glasssign3 3s ease infinite;
+}
 
-            .tickets{
-                width: 20vw;
-                height: 70vw;
-                margin-left: 0%;
-                margin-top: -120%;
-                animation: ticketss 1s steps(1) infinite;
-            }
-    
-            @keyframes ticketss{
-                0%{ background-position: 0px;}
-                40%{ background-position: -22vw;}
-                60%{ background-position: -45vw;}
-                80%{ background-position: -66vw;}
-                100%{ background-position: -88s;}
-            }
+.glasssign4{
+    width: 0%;
+    margin-top: 9%;
+    margin-left: -15%;
+    animation: glasssign4 3s ease infinite;
+}
+
+.glasssign5{
+    position: relative;
+    width: 115%;
+    margin-top: 10.3%;
+    margin-left: 5%;
+    animation: glasssign5 3s ease infinite;
+}
+
+.group{
+    width: 15%;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: -7%;
+    animation: signature 3s ease infinite;
+}
+
+.signature{
+    width: 27%;
+    margin-left: 65%;
+    position: absolute;
+    margin-top: -7%;
+    animation: signature 3s ease infinite;
+}
 }
